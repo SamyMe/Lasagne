@@ -438,7 +438,7 @@ def rmsprop(loss_or_grads, params, learning_rate=1.0, rho=0.9, epsilon=1e-6):
     ----------
     .. [1] Tieleman, T. and Hinton, G. (2012):
            Neural Networks for Machine Learning, Lecture 6.5 - rmsprop.
-           Coursera. http://www.youtube.com/watch?v=O3sxAc4hxZU (formula @5:20)
+           Coursera. https://www.coursera.org/learn/neural-networks/lecture/YQHki/rmsprop-divide-the-gradient-by-a-running-average-of-its-recent-magnitude (formula @5:20)
     """
     grads = get_or_compute_grads(loss_or_grads, params)
     updates = OrderedDict()
